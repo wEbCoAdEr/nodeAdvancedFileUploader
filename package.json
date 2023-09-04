@@ -1,0 +1,32 @@
+{
+  "name": "advancedfileupload",
+  "version": "1.0.0",
+  "description": "Advanced resumable multi file upload with streaming capability",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wEbCoAdEr/nodeAdvancedFileUploader.git"
+  },
+  "keywords": [
+    "node",
+    "file",
+    "upload",
+    "multiple",
+    "resumable"
+  ],
+  "author": "wEbCoAdEr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wEbCoAdEr/nodeAdvancedFileUploader/issues"
+  },
+  "homepage": "https://github.com/wEbCoAdEr/nodeAdvancedFileUploader#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
